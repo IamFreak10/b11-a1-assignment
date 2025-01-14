@@ -159,3 +159,98 @@ background: rgb(255, 255, 255);
 .Opinion{
   margin: 80px 160px;
 }
+
+/* Table Part */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.Opinion {
+  width: 1280px;
+height: 481px;
+}
+
+
+
+.table-style {
+
+  border-radius: 16px;
+
+background: rgb(255, 255, 255);
+gap: 24;
+padding: 32px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+   color: rgb(0, 0, 0);;
+}
+
+th, td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px;
+  text-align: left;
+  
+}
+
+th {
+  
+background: rgb(198, 228, 214);
+}
+
+.dropdown {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+/* News */
+.recent-news{
+  margin: 80px 160px;
+  width: 1180px;
+
+}
+.satelite{
+width: 408px;
+height: 306px;
+border-radius: 24px;
+}
+.new-info{
+  width: 744px;
+  height: 210px;
+  display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+}
+.new{
+border-radius: 24px;
+background: rgb(255, 255, 255);
+width: 1280px;
+height: 402px
+}
+.r-img{
+width: 134px;
+height: 40px;
+}
+.new-btn{
+border-radius: 8px;
+background: rgb(0, 106, 80);
+width: 139px;
+height: 48px;
+gap: 48;
+padding: 13px 26px 13px 26px;
+color: rgb(255, 255, 255);
+font-weight: 600;
+
+
+}
+.etim{
+  display:flex;
+  flex-direction: row;
+  gap: 10px;
+}
