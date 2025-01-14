@@ -7,6 +7,7 @@ font-style: normal;
 
 /* Main Part */
 body{
+  
   width: 1600px;
   background: rgb(245, 245, 245);
 }
@@ -21,6 +22,9 @@ header nav{
   
 }
 header{
+  display: block;
+  justify-content: center;
+  align-items: center;
   margin: 0px 160px;
 }
 .sign-in{
@@ -35,13 +39,14 @@ padding: 15px 30px 15px 30px;
 
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 64;
-  padding: 80px 100px 80px 100px;
-border-radius: 24px;
-background: rgb(198, 228, 214);
-width: 1300px;
+  gap: 64px;
+  padding: 80px 100px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  max-width: 1400px;
+  margin: 40px auto;
 }
 .b-button{
   width: 270px;
@@ -61,4 +66,61 @@ background: rgb(0, 106, 80);
   max-width: 100%;
   height: auto;
   border-radius: 16px;
+}
+
+/* Main section */
+.pi-pi{
+  margin: 80px 160px;
+}
+/* All Like
+The Vision of Future
+Pillars of "Bangladesh 2.0"
+ */
+ .pi{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+ }
+/* After Pillars of BD  */
+.containers{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: flex-start;
+  gap: 30px;
+  
+  
+}
+
+.container{
+
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+width: 302px;
+height: 244px;
+padding: 24px;
+}
+.pi-title{
+
+}
+.pi-img{
+
+}
+.pi-descriptio{
+
+}
+/* Future section */
+.future{
+  width: 1280px;
+  margin: 80px 160px;
+}
+
+.fis{
+
+}
+.fi{
+  
 }
