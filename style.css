@@ -1,4 +1,84 @@
 /* Starting from here */
-.p{
-    background-color: aqua;
+main{
+display: flex;
+width: 1600px;
+height: 5300px;
+margin: 0 auto;
+}
+/* Linking Fronts */
+.Fira-Sans{
+    font-family: "Fira Sans", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* Working with hEADER */
+/* NAV */
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 160px 24px 160px;
+}
+/* Banner Part */
+.b-title{
+  color: rgba(14, 14, 14, 0.5);
+
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+
+}
+.b-description{
+  color: rgb(14, 14, 14);
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+}
+.b-button{
+width: 270px;
+height: 56px;
+padding: 17px 34px 17px 34px;
+
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+letter-spacing: 0%;
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
+
+}
+.banner{
+
+  width: 1280px;
+  height: 560px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
+  gap: 16px;
+  padding: 80px 100px;
+  margin: auto;
+  border-radius: 24px;
+background: rgb(198, 228, 214);
+}
+.banner-content{
+  width: 622px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+
+padding: 0px;
+}
+
+
+/* MAin part */
+/* Pillars Of Bangladesh */
+.pillars{
+  margin-top: 80px;
+  margin-left: 160px;
+  margin-right: 160px;
 }
