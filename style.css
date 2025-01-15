@@ -1,4 +1,5 @@
 .Fira-Sans{
+  margin: 0 160px;
   font-family: "Fira Sans", serif;
 font-weight: 100;
 font-style: normal;
@@ -10,6 +11,7 @@ body{
   
   width: 1600px;
   background: rgb(245, 245, 245);
+  align-items: center;
 }
 
 /* Header */
@@ -35,6 +37,7 @@ border-radius: 8px;
 padding: 15px 30px 15px 30px;
 }
 /* BAnner */
+
 .banner{
 
   display: flex;
@@ -49,14 +52,32 @@ padding: 15px 30px 15px 30px;
   margin: 40px auto;
 }
 .b-button{
+   color: rgb(255, 255, 255);
   width: 270px;
 height: 56px;
 border-radius: 8px;
 background: rgb(0, 106, 80);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
 }
 .b-title{
-  font-weight: 700px;
-  font-size: 32px;
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  width: 622px;
+height: 29px;
+
+}
+.b-description{
+  width: 622px;
+height: 201px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
 }
 .banner-img {
   max-width: 50%;
@@ -141,6 +162,7 @@ border-radius: 16px;
   border-radius: 8px;
 width: 122px;
 height: 41px;
+color: rgb(255, 255, 255);
 
 }
 
@@ -304,5 +326,47 @@ height: 64px;
 margin-top: 32px;
 text-align: center;
 font-weight: 400px;
+
+}
+/* Last Part */
+.last{
+text-align: center;
+border-radius: 24px;
+background: rgb(198, 228, 214);
+width: 1050px;
+height: 395px;
+margin: 80px 160px;
+gap: 64;
+padding: 80px 100px 80px 100px;
+}
+
+.last-input{
+  align-items: flex-start;
+gap: 24;
+padding: 18px 40px 18px 40px;
+width: 600px;
+height: 10px;
+}
+/* Finish Part */
+footer{
+  margin-top: 80px;
+  /* width:100%;
+  height: 100%; */
+
+gap: 32;
+padding: 50px 160px 50px 160px;
+background: rgb(255, 255, 255);
+text-align: center;
+}
+.f-imgs{
+  display: flex;
+  justify-content:center ;
+  gap: 23px;
+  margin-top: 32px;
+  
+}
+.fi-im{
+  width: 26.55px;
+height: 24px;
 
 }
